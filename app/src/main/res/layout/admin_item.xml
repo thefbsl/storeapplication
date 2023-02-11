@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivAdminItemView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:contentDescription="TODO" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvItemAdminTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="title"
+                android:textSize="30sp"
+                android:layout_marginStart="30dp"/>
+
+            <TextView
+                android:id="@+id/tvItemAdminPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/tvItemAdminDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desc"
+                android:textSize="20sp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"/>
+
+<!--            <Button-->
+<!--                android:id="@+id/btnDeleteItem"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/delete_item"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginStart="70dp"-->
+<!--                android:backgroundTint="#F60000" />-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

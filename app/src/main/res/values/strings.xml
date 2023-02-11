@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">store</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign up</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="items">Items</string>
+    <string name="favourites">Favourites</string>
+    <string name="basket">Basket</string>
+    <string name="choose_image">Choose image</string>
+    <string name="input_name">input name</string>
+    <string name="input_price">input price</string>
+    <string name="add_item">Add item</string>
+    <string name="show_items">Show items</string>
+    <string name="delete_item">Delete item</string>
+    <string name="admin_admin_com">admin@admin.com</string>
+    <string name="admin123456">admin123456</string>
+    <string name="description">description</string>
+    <string name="add_to_card">Add to card</string>
+</resources>
