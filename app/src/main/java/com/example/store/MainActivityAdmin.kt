@@ -1,4 +1,4 @@
-package com.example.store.view
+package com.example.store
 
 import android.content.Intent
 import android.net.Uri

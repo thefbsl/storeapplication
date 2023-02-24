@@ -7,11 +7,11 @@ import com.google.firebase.database.Exclude
 import com.squareup.picasso.Picasso
 
 class Item {
-    private var mName: String? = null
-    private var mPrice: Int? = null
-    private var mDesc: String? = null
-    private var mImageUrl: String? = null
-    private var mKey: String? = null
+    var mName: String? = null
+    var mPrice: Int? = null
+    var mDesc: String? = null
+    var mImageUrl: String? = null
+    var mKey: String? = null
 
     constructor() {
 
@@ -54,6 +54,14 @@ class Item {
 
     fun setImageUrl(imageUrl: String) {
         mImageUrl = imageUrl
+    }
+
+    fun getKey(): String? {
+        return mKey
+    }
+
+    fun setKey(key: String) {
+        mKey = key
     }
 
 

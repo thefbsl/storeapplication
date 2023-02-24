@@ -21,4 +21,6 @@
     <string name="admin123456">admin123456</string>
     <string name="description">description</string>
     <string name="add_to_card">Add to card</string>
+    <string name="catalog">Catalog</string>
+    <string name="cart">CART</string>
 </resources>

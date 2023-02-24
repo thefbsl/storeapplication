@@ -1,4 +1,4 @@
-package com.example.store.view
+package com.example.store
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity

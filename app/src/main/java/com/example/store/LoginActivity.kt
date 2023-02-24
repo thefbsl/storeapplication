@@ -1,4 +1,4 @@
-package com.example.store.view
+package com.example.store
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -53,4 +53,6 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
     }
+
+
 }
